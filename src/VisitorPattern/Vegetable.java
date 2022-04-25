@@ -1,5 +1,7 @@
 package VisitorPattern;
 
+/* This class is a concrete implementation of an Item (Element) */
+
 public class Vegetable implements Item {
 
     private int pricePerLb;

@@ -3,6 +3,7 @@ package ObserverPattern;
 import java.util.ArrayList;
 import java.util.List;
 
+/* This class is a concrete implementation of the Newspaper (Subject) interface */
 
 public class WallStreetJournal implements Newspaper {
 

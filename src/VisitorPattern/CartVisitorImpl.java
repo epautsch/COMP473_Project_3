@@ -1,5 +1,7 @@
 package VisitorPattern;
 
+/* This class is a concrete implementation of a CartVisitor (Visitor) */
+
 public class CartVisitorImpl implements CartVisitor {
 
     public int visit(Bread b) {

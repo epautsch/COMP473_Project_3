@@ -1,5 +1,7 @@
 package BridgePattern;
 
+/* This class is a concrete implementation of the F1Car abstraction */
+
 public class McLaren extends F1Car {
 
     public McLaren(Tire tireType) {

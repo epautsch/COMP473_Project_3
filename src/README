@@ -1,0 +1,18 @@
+To test our implementations, you can run the PatternsMain file.
+
+Here is a brief description of the problems we solved using patterns:
+
+1) BridgePattern: We used this pattern to separate the abstraction of
+an F1 Car from the implementation of Tire. Both F1Car and Tire have 
+different hierarchies which should have no impact on each other, thus
+making this pattern the perfect pattern to solve the problem.
+
+2) ObserverPattern: We used this pattern to allow for several 
+Subscribers (the Observers in our problem) to attach, detach, and
+receive updates from a Newspaper (the Subject in our problem).
+
+3) VisitorPattern: We used this pattern to allow a CartVisitor to
+visit different Items that might be found in a shopping cart
+at the grocery store. The CartVisitor allowed us to make calculations
+on each particular Item through its accept() method, thus moving the
+operational logic away from the objects and into the CartVisitor class. 

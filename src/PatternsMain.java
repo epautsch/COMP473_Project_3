@@ -2,6 +2,8 @@ import BridgePattern.*;
 import ObserverPattern.*;
 import VisitorPattern.*;
 
+/* This is a driver class to test our Pattern implementations */
+
 public class PatternsMain {
 
     public static void main(String[] args) {

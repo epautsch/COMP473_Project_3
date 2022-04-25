@@ -1,5 +1,7 @@
 package BridgePattern;
 
+/* This class is the abstraction */
+
 abstract public class F1Car {
 
     public Tire tires;

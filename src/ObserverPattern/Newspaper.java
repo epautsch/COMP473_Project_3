@@ -1,5 +1,6 @@
 package ObserverPattern;
 
+/* This is the interface for the Subject, in our case a Newspaper */
 
 public interface Newspaper {
 
